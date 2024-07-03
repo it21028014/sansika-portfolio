@@ -4,12 +4,12 @@ import Test from "./components/Test";
 
 const App = () => {
   return <div>
-    {/* <section><Navbar/></section>
+    <section><Navbar/></section>
     <section>Parallax</section>
     <section>Services</section>
     <section>Portfolio</section>
-    <section>Contact</section> */}
-   <Test/>
+    <section>Contact</section>
+   {/* <Test/> */}
   </div>;
 };
 
