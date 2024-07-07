@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='hero'>
     <div className="wrapper">
       <div className="textContainer">
-        <h2>SANSIKA KODITHUWAKKU</h2>
+        <h2>SANSIKA ODITHUWAKKU</h2>
         <h1>Full Stack Web And Mobile Developer</h1>
         <div className="buttons">
           <button>See latest Works</button>
