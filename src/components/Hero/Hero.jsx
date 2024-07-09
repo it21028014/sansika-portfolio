@@ -15,6 +15,9 @@ const Hero = () => {
         <img src='/scroll.png'/>
       </div>
     </div>
+    <div className="slidingTextContainer">
+      Developer Content Creator 
+    </div>
     <div className="imageContainer">
        <img src='/hero.png' alt='' />
     </div>
