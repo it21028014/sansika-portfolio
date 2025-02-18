@@ -1,12 +1,16 @@
-import "./app.scss";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Parallax from "./components/parallax/Parallax";
-import Services from "./components/Services/Services";
+import './app.scss';
+import Contact from './components/Contact/Contact';
+import Cursor from './components/cursor/Cursor';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Parallax from './components/parallax/Parallax';
+import Portfolio from './components/Porfolio/Portfolio';
+import Services from './components/Services/Services';
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -14,13 +18,17 @@ const App = () => {
       <section id="Services">
         <Parallax type="services" />
       </section>
-      <section id="Porfolio">
+      <section>
         <Services />
       </section>
-      <section>
-        <Parallax />
+      <section id="Portfolio">
+        <Parallax type={'portfolio'} />
       </section>
-      <section id="Contact">Contact</section>
+
+      <Portfolio />
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 };
