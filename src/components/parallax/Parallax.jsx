@@ -16,7 +16,7 @@ const Parallax = ({ type }) => {
   return (
     <div
       className="parallax"
-      ref={ref} // Attach ref to the parallax container
+      ref={ref} 
       style={{
         background:
           type === "services"

@@ -1,9 +1,9 @@
 import './app.scss';
 import Contact from './components/Contact/Contact';
-import Cursor from './components/cursor/Cursor';
+import Cursor from './components/Cursor/Cursor';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
-import Parallax from './components/parallax/Parallax';
+import Parallax from './components/Parallax/Parallax';
 import Portfolio from './components/Porfolio/Portfolio';
 import Services from './components/Services/Services';
 
